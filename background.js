@@ -1,4 +1,4 @@
-let targetTabId = null;
+let targetTabId;
 
 // Create context menu item
 chrome.runtime.onInstalled.addListener(() => {
